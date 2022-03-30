@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: black;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-container{
+    position: relative;
+}
+
+.main-container img{
+    width: 100%;
+    position: absolute;
+}
+
+#orderbtn{
+    position: absolute;
+    color: white;
+    background-color: black;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 6px 20px;
+    border-radius: 30px;
+    left: 8%;
+    top: 160px;
+    letter-spacing: 2px;
+    line-height: 30px;
+    font-family: "Arial";
+    text-align: center;
+    z-index: 10;
+}
+
+#orderbtn:hover{
+    background-color: white;
+    color: black;
+}
+
+#menus{
+    position: absolute;
+    left: 8%;
+    top: 240px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: #000000;
+    font-family: "Arial";
+    text-align: center;
+    list-style: none;
+    display: flex;
+    z-index: 10;
+}
+
+#menus li{
+    margin-right: 11%;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#menus li:hover{
+    background-color: white;
+}
+
+#download{
+    position: absolute;
+    left: 8%;
+    top: 350px;
+    font-size: 50px;
+}
+
+#dummy-text{
+    position: absolute;
+    left: 8%;
+    top: 520px;
+    font-size: 20px;
+    width: 20%;
+}
+
+#quality{
+    position: absolute;
+    left: 36%;
+    top: 965px;
+    font-size: 23px;
+    font-weight: 700;
+}
+
+#vector{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+#vector1{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+#socialmedia{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+#twitter{
+    position: absolute;
+    top: 970px;
+    left: 8%;
+    width: 1.5%;
+}
+
+#facebook{
+    position: absolute;
+    top: 970px;
+    left: 10%;
+    width: 1.5%;
+}
+
+#insta{
+    position: absolute;
+    top: 970px;
+    left: 12%;
+    width: 1.5%;
+}
+
+#lessthan{
+    position: absolute;
+    top: 970px;
+    left: 93%;
+    width: 2%;
+}
+
+#greaterthan{
+    position: absolute;
+    top: 970px;
+    left: 95.5%;
+    width: 2%;
+}
+
+#mobile {
+    animation: MoveUpDown 3s linear infinite;
+    position: absolute;
+    left: 64%;
+    top: 220px;
+    width: 25%;
+  }
+  
+@keyframes MoveUpDown {
+    0%, 100% {
+      top: 240px;
+    }
+    50% {
+      top: 300px;
+    }
+  }
